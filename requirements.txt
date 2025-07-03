@@ -1,0 +1,12 @@
+# Requirements for Roomba Motor Control with L298N
+# Core GPIO library required by RpiMotorLib
+RPi.GPIO>=0.7.0
+
+# RpiMotorLib - Motor control library
+rpimotorlib>=3.3
+
+# Optional: Hardware-timed GPIO for precise control (if needed)
+pigpio>=1.78
+
+# Optional: Modern GPIO library alternative (not used in this project)
+gpiozero>=2.0.0
